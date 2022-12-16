@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class OddEvenBitManipulation{
+	public static void oddEven(int n){
+		if((n&1)==0)
+		 System.out.println(n+" "+"even");
+	    else
+			System.out.println(n+" "+"odd");
+	}
+	public static void main(String[] ar){
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		oddEven(n);
+		
+	}
+	
+}
+		
+		
+		
+ 
